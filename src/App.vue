@@ -1,13 +1,11 @@
 <template>
   <h1>Curso Profesional</h1>
   
-  <CounterComposition/>
-  <CounterComposition/>
-  <CounterComposition/>
+  <ExampleSelective/>
 </template>
 
 <script lang="ts" setup>
-  import CounterComposition from './components/CounterComposition.vue';
+  import ExampleSelective from './components/ExampleSelective.vue';
 </script>
 
 <style>
