@@ -3,18 +3,12 @@
     <button @click="addCounter">Incrementar</button>
 </template>
 
-<script lang="ts">
-import type { Ref } from 'vue';
-import { defineComponent, ref } from 'vue';
+<script lang="ts" setup>
+    import type { Ref } from 'vue';
+    import { ref } from 'vue';
 
-export default defineComponent({
-    name: 'CounterComposition',
-    setup() {
-        let counter:Ref = ref(0)
-        const addCounter = ():void => {
-            counter.value++
-        }
-        return {counter, addCounter}
+    let counter:Ref = ref(0)
+    const addCounter = ():void => {
+        counter.value++
     }
-})
 </script>
