@@ -1,6 +1,7 @@
 <template>
-    <p v-bind:class="{
-        'danger' : hasError
+    <p v-bind:style="{
+        backgroundColor : 'red',
+        color: '#fff'
     }">El mensaje se ha enviado satisfactoriamente.</p>
 </template>
 
@@ -9,7 +10,5 @@
 </script>
 
 <style scoped>
-    .danger {
-        color: red;
-    }
+
 </style>
