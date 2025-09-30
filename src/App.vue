@@ -1,11 +1,11 @@
 <template>
   <h1>Curso Profesional</h1>
   
-  <ClassBind/>
+  <ModelForm/>
 </template>
 
 <script lang="ts" setup>
-  import ClassBind from './components/ClassBind.vue';
+  import ModelForm from './components/ModelForm.vue';
 </script>
 
 <style>
